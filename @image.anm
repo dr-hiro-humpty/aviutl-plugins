@@ -1,0 +1,13 @@
+@画像単純フェード
+--track0:フェードイン,0.1,1.0,0.5,0.1
+--track1:フェードアウト,0.1,1.0,0.5,0.1
+dofile("Plugins\\script\\dr-hiro-humpty\\image_anm.lua")
+simpleFade(obj)
+
+@画像スライディングフェード
+--track0:フェードイン,0.1,1.0,0.5,0.1
+--track1:フェードアウト,0.1,1.0,0.5,0.1
+--track2:イン位置,-1000,1000,100,1
+--track3:アウト位置,-1000,1000,-100,1
+dofile("Plugins\\script\\dr-hiro-humpty\\image_anm.lua")
+slidingFade(obj)
