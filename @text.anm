@@ -1,0 +1,11 @@
+@時刻表示アニメーション
+--track0:フェードイン,0.1,1.0,0.2,0.1
+--track1:フェードアウト,0.1,1.0,0.5,0.1
+dofile("Plugins\\script\\dr-hiro-humpty\\text_anm.lua")
+clockFade(obj)
+
+@文字列ポップアップ
+--track0:フェードイン,0.1,1.0,0.2,0.1
+--track1:フェードアウト,0.1,1.0,0.5,0.1
+dofile("Plugins\\script\\dr-hiro-humpty\\text_anm.lua")
+popFade(obj)
